@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './Card';
 import robots from './robots';
+import CardList from './CardList';
 
 const App = () => (
   <div>
-    <Card id={robots[0].id} name={robots[0].name} email={robots[0].email} />
+    <CardList robots={robots} />
   </div>
 );
 
